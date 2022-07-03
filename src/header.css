@@ -1,0 +1,15 @@
+/* 아이콘 css */
+.navbar-brand > img {
+    border-radius: 5px;
+    margin: 0px 10px 0px 10px;
+}
+
+/* 서비스 타이틀 */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 메뉴 리스트 */
+.navbar-nav > a {
+    font-family: 'Noto Sans KR', sans-serif;
+}
