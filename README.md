@@ -10,4 +10,4 @@
 <br>
 <br>
 <br>
-Made With ❤️ and Codenager
+Made With ❤️ Codenager
