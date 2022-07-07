@@ -1,0 +1,19 @@
+@media all and (max-width:600px) {
+    .footer-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-wrap > div {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .footer-wrap > div > span {
+        display: none;
+    }
+
+    .copyright {
+        height: 50px;
+        font-size: 14px;
+    }
+}
