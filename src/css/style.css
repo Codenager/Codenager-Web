@@ -105,3 +105,9 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0px 0px 20px 15px;
 }
+
+.our_name {
+    font-weight: bolder;
+    font-size: 60px;
+    color: linear-gradient(70deg, #51E719, #19E7BB);
+}
