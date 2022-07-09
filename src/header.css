@@ -1,3 +1,12 @@
+/* list background bug fix */
+.container-fluid {
+    background-color: #fff;
+}
+
+a.nav-link:nth-child(4) {
+   margin-bottom: 10px
+}
+
 /* icon css */
 .navbar-brand > img {
     border-radius: 5px;
