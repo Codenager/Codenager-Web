@@ -23,7 +23,8 @@ body {
 
 .crew_data_wrap {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .crew_data {
@@ -47,7 +48,8 @@ body {
 .crew_description {
     font-size: 20px;
     font-family: 'Noto Sans KR', sans-serif;
-    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
+    width: 250px;
 }
 .crew_role {
     font-size: 20px;
