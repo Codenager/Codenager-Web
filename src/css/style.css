@@ -49,6 +49,11 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     margin-top: 10px;
 }
+.crew_role {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10px;
+}
 
 
 
@@ -102,4 +107,16 @@ body {
     font-size: 17px;
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0px 0px 20px 15px;
+}
+/* about section */
+#about {
+    background-color: rgba(0, 187, 121);
+    padding: 50px 0px 50px 0px;
+}
+
+.our_name {
+    font-weight: bolder;
+    font-size: 60px;
+    color: linear-gradient(70deg, #51E719, #19E7BB);
+    margin-top: 10%;
 }
