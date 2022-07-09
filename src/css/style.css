@@ -67,6 +67,7 @@ body {
     margin: 40px 0px 40px 0px;
     text-align: left;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .service_data {
@@ -86,6 +87,8 @@ body {
 .service_data > img {
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 15px;
+    width: 100%;
+    height: 150px;
 }
 
 .service_name {
