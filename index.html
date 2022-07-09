@@ -40,7 +40,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <script src="src/script.js"></script>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -55,14 +54,18 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">홈</a>
-                    <a class="nav-link" href="#about">소개</a>
-                    <a class="nav-link" href="#crew">크루원</a>
-                    <a class="nav-link" href="#service">서비스</a>
+                    <a class="nav-link" onclick="locationTo('#about')">소개</a>
+                    <a class="nav-link" onclick="locationTo('#crew')">크루원</a>
+                    <a class="nav-link" onclick="locationTo('#service')">서비스</a>
                 </div>
             </div>
         </div>
     </nav>
-
+    <!-- about -->
+    <section id="about">
+        <p class="our_name">Codenager</p>
+        <p class="section_description">Korean Web Dev Team.</p>
+    </section>
     <!-- crew -->
     <section id="crew">
         <p class="section_title">크루원 😀</p>
@@ -72,16 +75,19 @@
                 <img src="https://avatars.githubusercontent.com/u/77488170?v=4" width="150" height="150" alt="">
                 <span class="crew_name">froggal(KeySpace)</span>
                 <span class="crew_description">웹 개발 1년차, 학생 개발자 키페라고 합니다!</span>
+                <span class="crew_role">Git 관리, 팀 리더.</span>
             </div>
             <div class="crew_data">
                 <img src="https://avatars.githubusercontent.com/u/72495729?v=4" width="150" height="150" alt="">
                 <span class="crew_name">anojds</span>
                 <span class="crew_description">프론트 개발 4년차 중학생 anojds라고 합니다</span>
+                <span class="crew_role">개발자</span>
             </div>
             <div class="crew_data">
                 <img src="https://avatars.githubusercontent.com/u/100451964?v=4" width="150" height="150" alt="">
                 <span class="crew_name">middlescholl</span>
                 <span class="crew_description">설명이 들어갈 자리입니다.</span>
+                <span class="crew_role">개발자</span>
             </div>
         </div>
     </section>
@@ -111,9 +117,9 @@
             <h2>Codenager</h2>
             <div>
                 <span>Links</span>
-                <a class="nav-link" href="#about">소개</a>
-                <a class="nav-link" href="#crew">크루원</a>
-                <a class="nav-link" href="#service">서비스</a>
+                <a class="nav-link" onclick="locationTo('#about')">소개</a>
+                <a class="nav-link" onclick="locationTo('#crew')">크루원</a>
+                <a class="nav-link" onclick="locationTo('#service')">서비스</a>
             </div>
         </div>
         <div class="copyright">© Codenager 2022, All Rights Reserved.</div>
