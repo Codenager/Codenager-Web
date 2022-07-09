@@ -105,6 +105,11 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0px 0px 20px 15px;
 }
+/* about section */
+#about {
+    background-color: rgba(0, 187, 121);
+    padding: 50px 0px 50px 0px;
+}
 
 .our_name {
     font-weight: bolder;
