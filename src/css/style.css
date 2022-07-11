@@ -15,6 +15,25 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* about section */
+#about {
+    background-color: rgba(0, 187, 121);
+    padding: 50px 0px 50px 0px;
+}
+
+.our_name {
+    font-weight: bolder;
+    font-size: 80px;
+    margin-top: 7%;
+}
+
+@media all and (max-width:550px) {
+    .our_name {
+        margin-top: 17%;
+        font-size: 40px;
+    }
+}
+
 /* crew section */
 #crew {
     width: 100%;
@@ -23,7 +42,8 @@ body {
 
 .crew_data_wrap {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .crew_data {
@@ -45,6 +65,20 @@ body {
 }
 
 .crew_description {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.crew_description3 {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.crew_role {
     font-size: 20px;
     font-family: 'Noto Sans KR', sans-serif;
     margin-top: 10px;
